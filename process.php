@@ -11,7 +11,7 @@ if ($username == 'admin' && $password == 'password123'){
 else {
     echo "Invalid login. Redirecting back to login.html";
     sleep(5);
-    header('Location: login.html');
+    header('Location: login.php');
     exit;
 }
 ?>
